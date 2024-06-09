@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-lg{
+  font-family: "Cactus Classical Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  padding-left: 5%;
+}
+
+.pl-4{
+  font-family: "Cactus Classical Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
