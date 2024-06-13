@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 .nav-lg{
-  font-family: "Cactus Classical Serif", serif;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   color: white;
@@ -11,7 +12,213 @@
 }
 
 .pl-4{
-  font-family: "Cactus Classical Serif", serif;
+  font-family: "DM Serif Text", serif;
+  font-style: normal;
+}
+
+.main-img{
+  height: 70vh;
+}
+
+.gradient-black{
+  height: 70vh;
+  width: 100%;
+  position: absolute;
+  justify-content: end;
+  align-items: end;
+  background-image: linear-gradient(to right, black, rgba(255, 255, 255, 0));
+  opacity: 0.8;
+}
+
+.about-grad{
+  height: 75vh;
+  width: 50%;
+}
+
+.main-title{
+  font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
+  color: white;
+  font-size: 5vw;
+  line-height: 1;
+}
+
+.paragraph{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 2.5vw;
+  padding-top: 2%;
+}
+
+.btn-contact{
+  display: flex;
+  justify-content: end;
+  float: right;
+  background-color: orange;
+  margin-bottom: 0;
+  padding-right: 2%;
+  padding-left: 2%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vw;
+}
+
+.rounded-shape{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.text-row{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vw;
+  line-height: 1;
+}
+
+.services-paragraph{
+  font-family: "Unna", serif;
+  line-height: 1;
+}
+
+.first-services{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: end;
+  font-size: 2.5vw;
+}
+
+.img-about{
+  height: 35vh;
+  width: 40vw;
+}
+
+.about-container{
+  margin-top: 20%;
+}
+
+.about-text-container{
+  float: right;
+  align-items: end;
+  padding-left: 45%;
+}
+
+.about-text{
+  font-family: "Unna", serif;
+  line-height: 1;
+  font-size: 2.5vw;
+}
+
+.about-tip{
+  background-color: orange;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.about-bg{
+  display: block;
+  opacity: 0.9;
+  float: right;
+  position: absolute;
+  width: 40vw;
+}
+
+.text-base{
+  line-height: 1;
+  font-family: "Unna", serif;
+}
+
+.order-first{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.services-title{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vw;
+}
+
+#img-services{
+  height: 45vh;
+}
+
+.services-grad{
+  height: 45vh;
+}
+
+.service-description{
+  font-family: "Unna", serif;
+}
+
+.civil-title{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: orange;
+  font-size: 6vw;
+  border-bottom: 1px solid rgba(255, 166, 0, 0.38);
+}
+
+@media (min-width: 992px){
+  .main-title{
+    font-size: 3vw;
+  }
+
+  .paragraph{
+    font-size: 1.5vw;
+  }
+
+  .btn-contact, .text-row{
+    font-size: 2vw;
+  }
+
+  .first-services{
+    font-size: 0.8vw;
+  }
+
+  .about-container{
+    margin-top: 0;
+  }
+
+  .about-text{
+    font-size: 1vw;
+  }
+
+  #main{
+    padding-bottom: 5%;
+  }
+
+  .order-first{
+    font-size: 5vw;
+  }
+
+  .services-title{
+    font-size: 2.5vw;
+  }
+  
+  .services-grad{
+    height: 32.5vh;
+  }
+
+  .services-text{
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .civil-title{
+    font-size: 4vw;
+  }
 }
