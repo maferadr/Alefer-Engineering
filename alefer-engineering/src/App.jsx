@@ -5,6 +5,7 @@ import Home from "./pages/HomePage";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Civil from "./pages/Civil";
+import Contact from "./pages/Contact";
 
 export default function App(){
   return(
@@ -14,6 +15,7 @@ export default function App(){
       <About/>
       <Services/>
       <Civil/>
+      <Contact/>
     </>
   )
 }

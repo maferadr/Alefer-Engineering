@@ -1,4 +1,5 @@
 import React from "react";
+import Logos from "../components/Logos";
 
 export default function Civil(){
     const projects = [
@@ -32,6 +33,7 @@ export default function Civil(){
                     ))}
                 </dl>
             </div>
+            <Logos/>
         </div>
     )
 }

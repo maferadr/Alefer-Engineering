@@ -172,16 +172,44 @@
   border-bottom: 1px solid rgba(255, 166, 0, 0.38);
 }
 
+.subtitle-logos{
+  font-family: "Unna", serif;
+  font-size: 3vw;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.bg-contact{
+  background-color: orange;
+}
+
+.logo-contact{
+  font-size: 5vw;
+}
+
+.contact-title{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vw;
+}
+
+.sub-contact{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 @media (min-width: 992px){
   .main-title{
     font-size: 3vw;
   }
 
-  .paragraph{
+  .paragraph, .subtitle-logos{
     font-size: 1.5vw;
   }
 
-  .btn-contact, .text-row{
+  .btn-contact, .text-row, .contact-title, .logo-contact{
     font-size: 2vw;
   }
 
@@ -221,4 +249,5 @@
   .civil-title{
     font-size: 4vw;
   }
+
 }
