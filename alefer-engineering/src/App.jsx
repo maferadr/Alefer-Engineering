@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./pages/HomePage";
@@ -8,6 +8,7 @@ import Civil from "./pages/Civil";
 import Contact from "./pages/Contact";
 
 export default function App(){
+
   return(
     <>
       <Navbar/>

@@ -7,6 +7,9 @@ export default function Home(){
                 <div className="gradient-black">
                 </div>
                 <img className='w-full main-img object-cover block' src="https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"></img>
+                <div className="absolute top-0">
+                    <img src="/src/assets/alefer.png" className="object-cover alefer-logo"></img>
+                </div>
                 <div className="top-[65%] pl-10 absolute">
                     <h1 className="main-title">Tenemos un 
                     <br></br>
@@ -14,7 +17,7 @@ export default function Home(){
                     <p className="paragraph">Atendemos y Solucionamos tus necesidades.</p>
                 </div>
                 <div className="btn-contact absolute top-[90%] right-3 bottom-0">
-                    <button>Contáctanos</button>
+                    <button><a href="#contact">Contáctanos</a></button>
                 </div>
             </div>
             <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
@@ -32,9 +35,11 @@ export default function Home(){
                 <div className="group relative">
                     <div className="rounded-shape p-4 bg-sky-950">
                         <h2 className="text-row text-white">Nuestros Servicios</h2>
-                        <p className="services-paragraph text-white">Brindamos nuestro conocimiento y experiencia adquirida a empresas, corporaciones, industrias,
-                            centros médicos e instituciones que requieran estudios, diseño, construcción, gestión y administración
-                            externa de sus proyectos de ingenieria electrica y/o civil. 
+                        <p className="services-paragraph text-white">
+                        Basamos nuestra Experiencia, con soluciones innovadoras y eficientes adaptadas a las necesidades del cliente,  
+                        que mejoren su productividad y optimicen sus procesos, garantizando seguridad, confiabilidad y cumplimiento de 
+                        las normativas en la industria energética. Ser el socio de ingeniería de confianza para nuestros clientes, brindándoles 
+                        el apoyo, acompañamiento y la experiencia necesarios para alcanzar sus objetivos estratégicos. 
                         </p>
                     </div>
                 </div>

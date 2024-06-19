@@ -31,8 +31,8 @@
 }
 
 .about-grad{
-  height: 75vh;
-  width: 50%;
+  height: 45vh;
+  width: 100%;
 }
 
 .main-title{
@@ -58,7 +58,7 @@
   display: flex;
   justify-content: end;
   float: right;
-  background-color: orange;
+  background-color: rgb(224, 153, 22);
   margin-bottom: 0;
   padding-right: 2%;
   padding-left: 2%;
@@ -99,19 +99,15 @@
 }
 
 .img-about{
-  height: 35vh;
-  width: 40vw;
+  height: 45vh;
+  width: 100vw;
 }
 
 .about-container{
   margin-top: 20%;
 }
 
-.about-text-container{
-  float: right;
-  align-items: end;
-  padding-left: 45%;
-}
+
 
 .about-text{
   font-family: "Unna", serif;
@@ -120,7 +116,7 @@
 }
 
 .about-tip{
-  background-color: orange;
+  background-color: rgb(224, 153, 22);
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -131,6 +127,7 @@
   float: right;
   position: absolute;
   width: 40vw;
+  opacity: 0.6;
 }
 
 .text-base{
@@ -167,20 +164,17 @@
   font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
-  color: orange;
+  color: white;
   font-size: 6vw;
-  border-bottom: 1px solid rgba(255, 166, 0, 0.38);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.434);
 }
+
 
 .subtitle-logos{
   font-family: "Unna", serif;
   font-size: 3vw;
-  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-}
-
-.bg-contact{
-  background-color: orange;
 }
 
 .logo-contact{
@@ -192,12 +186,23 @@
   font-weight: 400;
   font-style: normal;
   font-size: 5vw;
+  border-top: 1px solid rgba(255, 255, 255, 0.453);
 }
 
 .sub-contact{
   font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.img-logo{
+  height: 22vh;
+  width: 100%;
+}
+
+.alefer-logo{
+  height: 28vh;
+  margin-left: 15%;
 }
 
 @media (min-width: 992px){
@@ -248,6 +253,18 @@
 
   .civil-title{
     font-size: 4vw;
+  }
+
+  .img-about{
+    float: left;
+    height: 80vh;
+    width: 35vw;
+    margin-right: 15%;
+  }
+
+  .about-grad{
+    height: 80vh;
+    width: 35vw;
   }
 
 }
