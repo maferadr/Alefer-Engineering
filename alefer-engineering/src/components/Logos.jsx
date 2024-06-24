@@ -17,35 +17,35 @@ export default function Logos(){
                 <div className="mx-auto mt-10 pb-16 sm:pb-8 grid max-w-lg grid-cols-6 flex justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-4 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5 sm:grid-cols-2" data-aos='fade-right' data-aos-duration='2000'>
                 <img
             className="col-span-2 img-logo w-full object-contain object-cover lg:col-span-1"
-            src="/src/assets/akron.png"
+            src="/assets/akron.png"
             alt="Transistor"
             width={158}
             height={48}
           />
           <img
             className="col-span-2 img-logo w-full object-contain lg:col-span-1"
-            src="/src/assets/fundicion.png"
+            src="/assets/fundicion.png"
             alt="Reform"
             width={158}
             height={48}
           />
           <img
             className="col-span-2 img-logo mx-2 w-full object-contain lg:col-span-1"
-            src="/src/assets/hospital.png"
+            src="/assets/hospital.png"
             alt="Tuple"
             width={158}
             height={48}
           />
           <img
             className="col-span-2 img-logo w-full object-contain sm:col-start-2 lg:col-span-1"
-            src="/src/assets/caf.png"
+            src="/assets/caf.png"
             alt="SavvyCal"
             width={158}
             height={48}
           />
           <img
             className="col-span-2 img-logo w-full object-contain object-cover lg:col-span-1"
-            src="/src/assets/sambil.png"
+            src="/assets/sambil.png"
             alt="SavvyCal"
             width={158}
             height={48}

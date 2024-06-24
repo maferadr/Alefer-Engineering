@@ -6,9 +6,9 @@ export default function Home(){
             <div className="container-img relative">
                 <div className="gradient-black">
                 </div>
-                <img className='w-full main-img object-cover block' src="https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"></img>
+                <img className='w-full main-img object-cover block' src="https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg"></img>
                 <div className="absolute top-0">
-                    <img src="/src/assets/alefer.png" className="object-cover alefer-logo"></img>
+                    <img src="/assets/alefer.png" className="object-cover alefer-logo"></img>
                 </div>
                 <div className="top-[65%] pl-10 absolute">
                     <h1 className="main-title">Tenemos un 

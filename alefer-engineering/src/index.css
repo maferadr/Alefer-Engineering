@@ -130,6 +130,10 @@
   opacity: 0.6;
 }
 
+.sub-about{
+  color: rgb(224, 153, 22);
+}
+
 .text-base{
   line-height: 1;
   font-family: "Unna", serif;
@@ -154,6 +158,15 @@
 
 .services-grad{
   height: 45vh;
+}
+
+.gallery-grad{
+  height: 24.5vh;
+}
+
+.img-gallery{
+  height: 24.5vh;
+  width: 100%;
 }
 
 .service-description{
@@ -244,6 +257,10 @@
   
   .services-grad{
     height: 32.5vh;
+  }
+
+  .gallery-grad, .img-gallery{
+    height: 31.5vh;
   }
 
   .services-text{

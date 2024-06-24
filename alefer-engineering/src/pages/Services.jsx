@@ -1,22 +1,23 @@
 import React, {useEffect} from "react";
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import Gallery from "../components/Gallery";
 
 export default function Services(){
     const services = [
         {
             id: 1,
-            imgSrc: 'https://images.pexels.com/photos/4508748/pexels-photo-4508748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            imgSrc: '/assets/services-1.jpg',
             title: 'Instalacion y Configuracion de Equipos.'
         },
         {
             id: 2,
-            imgSrc: 'https://images.pexels.com/photos/4705102/pexels-photo-4705102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            imgSrc: '/assets/services-2.jpg',
             title: 'Mantenimiento Preventivo y Correctivo de Plantas.'
         },
         {
             id: 3,
-            imgSrc: 'https://images.pexels.com/photos/4263057/pexels-photo-4263057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            imgSrc: '/assets/services-3.jpg',
             title: 'Estudios, Consultorias y Entrega de Planos.'
         }
     ]
@@ -48,6 +49,7 @@ export default function Services(){
                     ))}
                 </div>
             </div>
+            <Gallery/>
         </div>
     )
 }

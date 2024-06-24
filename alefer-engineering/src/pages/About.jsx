@@ -15,9 +15,9 @@ export default function About(){
             <div className="about-text-container">
             <div>
              <div className="gradient-black about-grad"></div>
-                <img src="https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg" className="object-cover img-about"></img>
+                <img src="/assets/about-img.jpg" className="object-cover object-center img-about"></img>
             </div>
-                <h1 className="civil-title m-5 p-2 text-row" data-aos="zoom-in-left" data-aos-duration='2000'>Contamos con Personal Especializado!</h1>
+                <h1 className="civil-title m-5 p-2 text-row" data-aos="zoom-in-left" data-aos-duration='2000'>Contamos con Personal <span className="ml-7 sub-about">Especializado</span></h1>
                 <div className="relative">
                 <p className="about-text text-white pl-5">Nuestro equipo de Ingeniería está conformado por ex trabajadores de empresas del sector eléctrico formados por más de 15 años en las áreas
                 de Gerencia, Gestión de Proyectos,  Operaciones, Mantenimiento, evaluación y control de la calidad de energía  eléctrica a nivel de subestaciones e instalaciones eléctricas en 
@@ -32,7 +32,7 @@ export default function About(){
                <div className="right-0 pt-5">
                 <p className="about-text about-tip p-3">Todos nuestros proyectos son basados en la Fondonorma 200-2009: Código Eléctrico Nacional y Normas afines.</p>
                </div>
-               <img className="about-bg right-0 hidden" src="/src/assets/about-bg.png"></img>
+               <img className="about-bg right-0 hidden" src="/assets/about-bg.png"></img>
             </div>
         </div>
     )
