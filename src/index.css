@@ -279,4 +279,8 @@
     width: 35vw;
   }
 
+  .hidden{
+    display: block;
+  }
+
 }

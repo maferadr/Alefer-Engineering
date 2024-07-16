@@ -14,7 +14,7 @@ export default function Logos(){
                 <h2 className="text-center leading-8 p-2 top-0 bg-sky-950 text-white subtitle-logos">
                     La Experiencia importa, y la confianza construida con ella aun mas!
                 </h2>
-                <div className="mx-auto mt-10 pb-16 sm:pb-8 grid max-w-lg grid-cols-6 flex justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-4 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5 sm:grid-cols-2" data-aos='fade-right' data-aos-duration='2000'>
+                <div className="mx-auto mt-10 pb-16 sm:pb-8 grid max-w-lg grid-cols-4 flex justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-2 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5 sm:grid-cols-2" data-aos='fade-right' data-aos-duration='2000'>
                 <img
             className="col-span-2 img-logo w-full object-contain object-cover lg:col-span-1"
             src="/assets/akron.png"
@@ -23,7 +23,7 @@ export default function Logos(){
             height={48}
           />
           <img
-            className="col-span-2 img-logo w-full object-contain lg:col-span-1"
+            className="col-span-2 img-logo w-full object-contain lg:col-span-1 hidden"
             src="/assets/fundicion.png"
             alt="Reform"
             width={158}
